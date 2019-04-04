@@ -3,7 +3,7 @@ function produceDrivingRange(range) {
       let start = parseInt(string1)
       let finish = parseInt(string2)
       let diff = Math.abs(start-finish)
-      if(out of range) {
+      if(diff > range) {
         return `${} blocks out of range`
       } else {
         return `within range by ${}`
