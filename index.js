@@ -1,7 +1,7 @@
 function produceDrivingRange(range) {
     return function(string1, string2) {
-      if(in range) {
-        ""
+      if(out of range) {
+        return "${} blocks out of range"
       }
     }
 }
