@@ -1,5 +1,5 @@
 function produceDrivingRange(range) {
-    return function(start, finish) {
+    return function(string1, string2) {
       let s1 = parseInt(string1)
       let s2 = parseInt(string2)
       if(out of range) {
