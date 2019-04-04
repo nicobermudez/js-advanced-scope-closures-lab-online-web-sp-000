@@ -1,7 +1,7 @@
 function produceDrivingRange(range) {
     return function(string1, string2) {
-      let s1 = string1.slice()
-      let s2 = string2.slice()
+      let s1 = parseInt(string1)
+      let s2 = parseInt(string2)
       if(out of range) {
         return `${} blocks out of range`
       } else {
